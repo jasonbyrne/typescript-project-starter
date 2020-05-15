@@ -1,3 +1,12 @@
+coverage/
+node_modules/
+dist/
+build/
+out/
+flagpole/out
+flagpole/cache
+.vscode
+
 # Logs
 logs
 *.log

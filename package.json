@@ -1,0 +1,37 @@
+{
+  "name": "typescript-project-starter",
+  "version": "1.0.0",
+  "description": "Vanilla project boilerplate with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index",
+    "build": "tsc",
+    "test": "jest",
+    "e2e": "flagpole run --all",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonbyrne/typescript-project-starter.git"
+  },
+  "author": "Jason Byrne <jason.byrne@flosports.tv>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonbyrne/typescript-project-starter/issues"
+  },
+  "homepage": "https://github.com/jasonbyrne/typescript-project-starter#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.2",
+    "@types/node": "^14.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "flagpole": "^2.4.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.9.2"
+  }
+}
